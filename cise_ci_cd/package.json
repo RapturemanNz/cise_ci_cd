@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@angular/cli": "^11.2.6",
+    "xxxxx": "^1.0.3"
   }
 }
