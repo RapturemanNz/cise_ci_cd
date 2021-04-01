@@ -31,3 +31,9 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Test
+        run:
+          echo $PASSWORD
+        env:
+          Test: ${{ secrets.PASSWORD }}
