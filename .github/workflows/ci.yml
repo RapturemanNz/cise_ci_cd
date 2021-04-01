@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 63c027a165c59cf1ea6824c956a1bf814839d445
 name: CI/CD
 
 on:
@@ -31,3 +35,9 @@ jobs:
 
       - name: Build
         run: npm run build
+<<<<<<< HEAD
+=======
+        
+      - name: Run linter
+        run: npm run lint
+>>>>>>> 63c027a165c59cf1ea6824c956a1bf814839d445
