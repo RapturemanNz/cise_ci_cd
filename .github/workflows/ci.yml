@@ -32,6 +32,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Heroku Action
+        uses: CDNievas/heroku-action@v1.0
+        
       - name: Test
         run:
           echo ${{ secrets.PASSWORD }}
